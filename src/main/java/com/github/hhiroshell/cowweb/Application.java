@@ -1,4 +1,4 @@
-package jp.co.yahoo.corp.ghe.hirhayak.cowweb;
+package com.github.hhiroshell.cowweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.actuate.autoconfigure.metrics.SystemMetricsAutoConfiguration;

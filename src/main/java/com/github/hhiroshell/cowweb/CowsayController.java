@@ -1,4 +1,4 @@
-package jp.co.yahoo.corp.ghe.hirhayak.cowweb;
+package com.github.hhiroshell.cowweb;
 
 import com.github.ricksbrown.cowsay.Cowsay;
 import org.springframework.beans.factory.annotation.Value;
