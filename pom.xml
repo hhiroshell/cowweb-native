@@ -56,6 +56,11 @@
             <plugin>
                 <groupId>org.graalvm.buildtools</groupId>
                 <artifactId>native-maven-plugin</artifactId>
+                <configuration>
+                    <buildArgs>
+                        <arg>--initialize-at-build-time=com.github.hhiroshell.cowweb.CowsayController</arg>
+                    </buildArgs>
+                </configuration>
             </plugin>
         </plugins>
     </build>
